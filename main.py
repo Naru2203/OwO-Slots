@@ -164,9 +164,6 @@ def loopie(resp):
           cash()
       time.sleep(1)
       s()
-      if time.time() - main > random.randint(1000, 2000):
-        time.sleep(random.randint(20,30))
-        main=time.time()
-        
+       
 bot.gateway.run(auto_reconnect=True)
 
