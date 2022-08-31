@@ -135,15 +135,15 @@ def check(resp):
       if'**`___SLOTS___  `**\n<:eggplant:417475705719226369> <:eggplant:417475705719226369> <:eggplant:417475705719226369>' in m['content']:
               print("{}[INFO] Draw: {} Cowoncy {}/{} Current: {:,} Cowoncy {}".format(client.color.green,client.current_bet,client.color.reset,client.color.cyan,client.totalwon,client.color.reset))
       if'**`___SLOTS___  `**\n<:cherry:417475705178161162> <:cherry:417475705178161162> <:cherry:417475705178161162>' in m['content']:
-              client.totalwon += client.current_bet * 3
+              client.totalwon += client.current_bet * 2
               print("{}[INFO] Won x 3: {} Cowoncy {}/{} Current: {:,} Cowoncy {}".format(client.color.green,client.current_bet * 3,client.color.reset,client.color.cyan,client.totalwon,client.color.reset))
               client.current_bet = client.bet
       if'**`___SLOTS___  `**\n<:cowoncy:417475705912426496> <:cowoncy:417475705912426496> <:cowoncy:417475705912426496>' in m['content']:
-              client.totalwon += client.current_bet * 4
+              client.totalwon += client.current_bet * 3
               print("{}[INFO] Won x 4: {} Cowoncy {}/{} Current: {:,} Cowoncy {}".format(client.color.green,client.current_bet * 4,client.color.reset,client.color.cyan,client.totalwon,client.color.reset))
               client.current_bet = client.bet
       if'**`___SLOTS___  `**\n<:o:417475705899843604 > <:w_:417475705920684053> <:o_:417475705899843604>' in m['content']:
-              client.totalwon += client.current_bet * 10
+              client.totalwon += client.current_bet * 9
               print("{}[INFO] Won x 10: {} Cowoncy {}/{} Current: {:,} Cowoncy {}".format(client.color.green,client.current_bet * 10,client.color.reset,client.color.cyan,client.totalwon,client.color.reset))
               client.current_bet = client.bet
 def s():
