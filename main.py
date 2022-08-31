@@ -134,7 +134,6 @@ def check(resp):
        client.current_bet *= client.rate
       if'**`___SLOTS___  `**\n<:eggplant:417475705719226369> <:eggplant:417475705719226369> <:eggplant:417475705719226369>' in m['content']:
               print("{}[INFO] Draw: {} Cowoncy {}/{} Current: {:,} Cowoncy {}".format(client.color.green,client.current_bet,client.color.reset,client.color.cyan,client.totalwon,client.color.reset))
-              client.current_bet = client.bet
       if'**`___SLOTS___  `**\n<:cherry:417475705178161162> <:cherry:417475705178161162> <:cherry:417475705178161162>' in m['content']:
               client.totalwon += client.current_bet * 3
               print("{}[INFO] Won x 3: {} Cowoncy {}/{} Current: {:,} Cowoncy {}".format(client.color.green,client.current_bet * 3,client.color.reset,client.color.cyan,client.totalwon,client.color.reset))
