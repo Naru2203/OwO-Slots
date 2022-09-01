@@ -151,7 +151,7 @@ def s():
   bot.sendMessage(str(client.channel), "owo s {}  ".format(client.current_bet))
   print("{} {} [SENT] owo s {}  {}".format(at(),client.color.yellow,client.current_bet,client.color.reset))
   time.sleep(15)
-  if client.current_bet  > 300000:
+  if client.current_bet  > 200000:
     client.current_bet = client.bet
     
 @bot.gateway.command
