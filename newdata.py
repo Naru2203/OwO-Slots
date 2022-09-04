@@ -21,7 +21,8 @@ def menu():
  if choice == "1":
   t(data,"True")
   c(data,"True")
-  be(data,"True")
+  bet(data,"True")
+  r(data,"True")
  if choice == "2":
   t(data,"False")
  if choice == "3":
